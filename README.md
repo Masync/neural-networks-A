@@ -33,8 +33,8 @@ _Descomprime el .zip y puedes acceder a nuestro trabajo_
 ## Autores ✒️
 
 
-* **Juan Manuel Patiño** - *Desarrollo * - [Masync](https://github.com/Masync)
-* **Julian Soto ** - *Desarrollo* - [JulianUnd](https://github.com/JulianUND)
+* **Juan Manuel Patiño** - *Desarrollo* - [Masync](https://github.com/Masync)
+* **Julian Soto** - *Desarrollo* - [JulianUnd](https://github.com/JulianUND)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
