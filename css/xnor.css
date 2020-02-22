@@ -1,0 +1,112 @@
+/* table
+{
+    border-collapse: collapse;
+    width:300px;
+}
+td
+{
+    border: 1px solid black;
+}
+#salida{
+    margin-left:200px;
+    position:absolute;
+    margin-top:-1px;
+}
+h3{
+    position:relative;
+    margin-top:-21px;
+    margin-left:60px
+}
+.ce{
+    text-align:center;
+}
+div{
+    margin-left:690px;
+    margin-top:-601px;
+}
+.or img{
+    width:500px;
+    height:200px;
+    margin-left:-100px;
+    margin-top:900px;
+   
+}
+.orl{
+    margin-top:-500px;
+    
+}
+.or{
+    margin-top:-700px;
+    width:500px;
+    height:200px;
+
+}
+#resultado{
+    margin-left:140px 
+}
+#resultadoand{
+    margin-left:140px 
+}
+#esperadaand{
+    margin-left:140px;
+}
+#resultadonor{
+    margin-left:140px 
+}
+#esperadanor{
+    margin-left:140px;
+}
+#resultadoor{
+    margin-left:140px 
+}
+#esperadaor{
+    margin-left:140px;
+}
+.volver{
+    position:absolute;
+    margin-left:-100px;
+    margin-top:900px;
+}
+.peso1{
+ width:50px;
+ height:30px;
+}
+#peso1{
+ width:50px;
+ height:30px;
+}
+.valordeagregado{
+ width:50px;
+ height:30px;
+}
+.pesotd1{
+ width:50px;
+ height:30px;
+}
+.peso2{
+ width:50px;
+ height:30px;
+}
+.pesotd2{
+ width:50px;
+ height:30px;
+}
+.peso3{
+ width:50px;
+ height:30px;
+}
+.pesotd3{
+ width:50px;
+ height:30px;
+}
+.gp{
+    margin-left:320px;
+}
+.and{
+    margin-left:700px;
+    margin-top:0px;
+}
+.nor{
+    margin-left:700px;
+    margin-top:100px;
+} */

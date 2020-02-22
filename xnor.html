@@ -1,0 +1,171 @@
+<html>
+<head>
+<title>XNOR</title>
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/animate.css">
+</head>
+<body>
+    <!-- **======================================= Navegacion ========================================** -->
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">J.E.J</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">XNOR <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./xor.html">XOR</a>
+                        </li>
+                      
+                    </ul>
+                </div>
+            </nav>
+        </div>
+      </header>
+        <!-- **=======================================  / Navegacion ========================================** -->
+<div class="container">
+        <h1 class="display-1 text-uppercase text-center">Tabla  XNOR</h1>
+        <!-- **=======================================   Table ==============================================** -->
+        <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">X1</th>
+                <th scope="col">X2</th>
+                <th scope="col">R</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+             <!-- **=======================================  / Table   ========================================** -->
+             <!-- **=======================================  Data Area   ========================================** -->
+
+                <section class="about-area ">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="about-image">
+                                    <img src="./Images/svgs/pesos.svg" alt="About us" class="img-fluid animated slideInLeft slow">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 about-title">
+                                <h2 class="text-uppercase pt-5">
+                                    <span>Ingrese</span>
+                                    <span>Pesos</span>
+                                </h2>
+                                <div class="paragraph py-4 w-75">
+                                    <p class="para">
+                                        <form>
+                                            <div class="form-row">
+                                              <div class="form-group col-md-4">
+                                                <label for="peso1">Peso 1</label>
+                                                <input type="number" class="form-control" id="peso1" placeholder="ejemplo: 0.5" required>
+                                              </div>
+                                              <div class="form-group col-md-4">
+                                                <label for="peso2">Peso 2</label>
+                                                <input type="number" class="form-control" id="peso2" placeholder="ejemplo: 0.8" required>
+                                              </div>
+                                              <div class="form-group col-md-4">
+                                                <label for="umbral">Umbral</label>
+                                                <input type="number" class="form-control" id="umbral" placeholder="ejemplo:  -1" required>
+                                              </div>
+                                              <div class="form-row">
+                                                <div class="form-group col-md-4">
+                                                  <label for="_peso1">Peso 1</label>
+                                                  <input type="number" class="form-control" id="_peso1" placeholder="ejemplo: 0.5" required>
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                  <label for="_peso2">Peso 2</label>
+                                                  <input type="number" class="form-control" id="_peso2" placeholder="ejemplo: 0.8" required>
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                  <label for="_umbral">Umbral</label>
+                                                  <input type="number" class="form-control" id="_umbral" placeholder="ejemplo:  -1" required>
+                                                </div>
+                                    </p>
+                                    <p class="para">
+                                        Condiciones
+                                    </p>
+                                </div>
+                                <button type="submit" class="btn button primary-button text-uppercase" onclick="Main()">Enviar Datos</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>         
+               <!-- **=======================================  /Data Area   ========================================** -->
+                <!-- **======================================= Results Area ========================================** -->
+         <section class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h2 class="text-uppercase pt-5">
+                            <span>Resultado</span>
+                            <span>Pesos</span>
+                        </h2>
+                        <div class="paragraph py-4 w-75">
+                            <p class="para">
+                                <div class="form-group col-md-12">
+                                    <label for="esperado">Resultado Esperado</label>
+                                    <input type="number" class="form-control" id="esperado" placeholder="1" required>
+                                  </div>
+                            </p>
+                            <p class="para">
+                                <div class="form-group col-md-12">
+                                    <label for="final">Resultado Final</label>
+                                    <input type="number" id="resFinal" class="form-control" id="final" placeholder="ejemplo: 0.5" required>
+                                  </div>
+                            </p>
+                            <p class="para">
+                                Condiciones
+                            </p>
+                        </div>
+                      
+                    </div>
+                    <div class="col-lg-6 col-md-12 banner-image">
+                        <img src="./Images/svgs/Data.svg" alt="banner-img" class="img-fluid animated slideInRight slow">
+                    </div>
+                </div>
+            </div>
+        </section>  
+    <!-- **======================================= /Results Area ========================================** -->
+ <!-- **======================================= Footer ========================================** -->
+<footer class="page-footer font-small bg-dark text-light">
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a >JEJ</a>
+    </div>
+  </footer>
+ <!-- **======================================= /Footer ========================================** -->
+<script src="./js/xnor.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/JQuery-v3.4.1.js"></script>
+</body>
+</html>

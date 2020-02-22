@@ -1,0 +1,33 @@
+table
+{
+    border-collapse: collapse; /* Los bordes de la tabla se pegarán (mejor aspecto) */
+    width:300px;
+}
+td
+{
+    border: 1px solid black;
+}
+#salida{
+    margin-left:200px;
+    position:absolute;
+    margin-top:-1px;
+}
+h3{
+    position:relative;
+    margin-top:-21px;
+    margin-left:60px
+}
+.ce{
+    text-align:center;
+}
+div{
+    margin-left:690px;
+    margin-top:-601px;
+}
+.xor img{
+    width:500px;
+    height:100px;
+    margin-left:-100px;
+    margin-top:691px;
+   
+}
