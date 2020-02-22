@@ -11,8 +11,6 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-
 ```
 Descarga el .zip, decomprimelo y puedes disfrutar de nuestro trabajo
 ```
@@ -25,7 +23,6 @@ _Descomprime el .zip y puedes acceder a nuestro trabajo_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * [Javascrip](https://www.javascript.com/) - Usado para generar El backend
 * [Google Fonts](https://fonts.google.com/) - Usado para generar Las fuentes de texto
