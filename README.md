@@ -1,6 +1,6 @@
 # Perceptron XOr y Xnor en Html y js
 
-_Desarrollando Un perceptron Xor_y Xnor con html y js con 2 pesos y 1 umbral
+_Desarrollando Un perceptron Xory Xnor con html y js con 2 pesos y 1 umbral_
 
 ## Comenzando 🚀
 
