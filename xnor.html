@@ -6,67 +6,32 @@
 <link rel="stylesheet" href="./css/animate.css">
 </head>
 <body>
-    <!-- **======================================= Navegacion ========================================** -->
-    <header class="header_area">
-        <div class="main-menu">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">J.E.J</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="mr-auto"></div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">XNOR <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./xor.html">XOR</a>
-                        </li>
-                      
-                    </ul>
-                </div>
-            </nav>
-        </div>
-      </header>
-        <!-- **=======================================  / Navegacion ========================================** -->
-<div class="container">
-        <h1 class="display-1 text-uppercase text-center">Tabla  XNOR</h1>
-        <!-- **=======================================   Table ==============================================** -->
-        <table class="table table-hover">
-            <thead>
-              <tr>
-                <th scope="col">X1</th>
-                <th scope="col">X2</th>
-                <th scope="col">R</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>0</td>
-                <td>0</td>
-                <td>1</td>
-              </tr>
-              <tr>
-                <td>0</td>
-                <td>1</td>
-                <td>0</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-             <!-- **=======================================  / Table   ========================================** -->
+  <!-- **======================================= Navegacion ========================================** -->
+  <header class="header_area">
+    <div class="main-menu">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">J.E.J</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mr-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">XNOR <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./xor.html">XOR</a>
+                    </li>
+                  
+                </ul>
+            </div>
+        </nav>
+    </div>
+  </header>
+    <!-- **=======================================  / Navegacion ========================================** -->
+
              <!-- **=======================================  Data Area   ========================================** -->
 
                 <section class="about-area ">
@@ -116,38 +81,59 @@
                                         Condiciones
                                     </p>
                                 </div>
-                                <button type="submit" class="btn button primary-button text-uppercase" onclick="Main()">Enviar Datos</button>
+                                <button type="submit" class="btn button primary-button text-uppercase" onclick="main()">Enviar Datos</button>
                             </div>
                         </div>
                     </div>
-                </section>         
-               <!-- **=======================================  /Data Area   ========================================** -->
+                  </section>         
+                  <!-- **=======================================  /Data Area   ========================================** -->
+                  
+            <div class="container">
+                    <h1 class="display-1 text-uppercase text-center">Tabla  XNOR</h1>
+            </div>
                 <!-- **======================================= Results Area ========================================** -->
          <section class="site-banner">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 site-title">
-                        <h2 class="text-uppercase pt-5">
-                            <span>Resultado</span>
-                            <span>Pesos</span>
-                        </h2>
-                        <div class="paragraph py-4 w-75">
-                            <p class="para">
-                                <div class="form-group col-md-12">
-                                    <label for="esperado">Resultado Esperado</label>
-                                    <input type="number" class="form-control" id="esperado" placeholder="1" >
-                                  </div>
-                            </p>
-                            <p class="para">
-                                <div class="form-group col-md-12">
-                                    <label for="final">Resultado Final</label>
-                                    <input type="number" id="resFinal" class="form-control"  placeholder="ejemplo: 0.5" >
-                                  </div>
-                            </p>
-                            <p class="para">
-                            </p>
-                        </div>
-                      
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col">X1</th>
+                            <th scope="col">X2</th>
+                            <th scope="col">Valor esperado</th>
+                            <th scope="col">Rpta</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td id="resul1"></td>
+            
+                          </tr>
+                          <tr>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td id="resul2"></td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td id="resul3"></td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td id="resul4"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                  
                     </div>
                     <div class="col-lg-6 col-md-12 banner-image">
                         <img src="./Images/svgs/Data.svg" alt="banner-img" class="img-fluid animated slideInRight slow">
